@@ -105,7 +105,6 @@ theme: webstack
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  # repo: git@github.com:Geda-999/nav.git
-  repo: git@github.com:Geda-999/navigation.git
+  repo: git@github.com:Geda-999/nav.git
   bramch: gh-pages
 
