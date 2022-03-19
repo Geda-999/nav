@@ -7,14 +7,14 @@
 
 /* 导航栏 */
 nav.navbar.user-info-navbar {
-    background: linear-gradient(to right, rgb(255, 133, 204), rgb(134, 162, 255)) !important;
-    width: 100%;
+    /* background: linear-gradient(to right, rgb(255, 133, 204), rgb(134, 162, 255)) !important; */
+    /* width: 100%; */
     height: 66px;
-    opacity: 0.5;
+    /* opacity: 0.5; */
 }
-.night nav.navbar.user-info-navbar {
+/* .night nav.navbar.user-info-navbar {
   background: rgba(0, 0, 0) !important;
-}
+} */
 .user-info-navbar .user-info-menu > li {
   border-right: 0;
   height: 66px;
@@ -259,7 +259,7 @@ body.page-body.boxed-container.vsc-initialized {
   margin-bottom: 20px;
 }
 .sidebar-menu-inner.ps-container {
-  background: url(https://cdn.jsdelivr.net/gh/ashunun/Picture/image/0001.jpg) !important;
+  /* background: url(https://cdn.jsdelivr.net/gh/ashunun/Picture/image/0001.jpg) !important; */
   background-attachment: fixed;
 }
 .sidebar-menu.collapsed .sidebar-menu-inner {
@@ -293,8 +293,12 @@ span#busuanzi_value_site_uv {
 }
 @media screen and (min-width: 768px) {
   .sidebar-menu.collapsed .main-menu > li:hover > ul {
-    border-radius: 0 12px 12px 0;
-  }
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
 }
 /* 左侧栏 ------------------------------------------------------------------结束 */
 

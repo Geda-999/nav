@@ -106,6 +106,6 @@ theme: webstack
 deploy:
   type: git
   # repo: git@github.com:Geda-999/nav.git
-  repo: git@github.com:Geda-999/xiao.git
-  bramch: main
+  repo: git@github.com:Geda-999/navigation.git
+  bramch: gh-pages
 

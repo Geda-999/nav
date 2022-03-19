@@ -204,9 +204,9 @@ body.night .sidebar-menu {
   border-right: #7f8080 1px solid;
 }
 
-body.night .user-info-navbar {
+/* body.night .user-info-navbar {
   background-color: #232323 !important;
-}
+} */
 body.night .dropdown-menu {
   background-color: #232323 !important;
   border: 1px solid #888686 !important;
@@ -228,9 +228,9 @@ body.night .user-info-navbar .user-info-menu>li>a:hover {
   border-left: 1px solid #888686 !important;
 }
 
-body.night .user-info-navbar .user-info-menu>li {
+/* body.night .user-info-navbar .user-info-menu>li {
   border: 1px solid #232323 !important;
-}
+} */
 
 body.night .user-info-navbar .user-info-menu>li .dropdown-menu.languages li.active a {
   background-color: #232323 !important;
