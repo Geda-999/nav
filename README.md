@@ -1,6 +1,6 @@
 # Webstack网址导航
 
-- 这是一个魔改过了webstack
+- 这是一个魔改过了[webstack](https://github.com/hassanblog/navigation)
 - 原版[webstack](https://github.com/WebStackPage/WebStackPage.github.io)
 - 博客框架[Hexo](https://hexo.io/zh-cn/)
 
