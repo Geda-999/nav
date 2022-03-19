@@ -65,10 +65,14 @@ input::-webkit-input-placeholder{
   position: absolute;
   z-index: 100;
   width: 100%;
-  border-radius: 0 0 10px 10px;
+  border-radius: 10px;
   background: #FFF;
   box-shadow: 0px 4px 5px 0px #cccccc94;
   overflow: hidden;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 .search-hot-text ul{
 	margin: 0;
