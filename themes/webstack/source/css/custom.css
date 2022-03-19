@@ -303,9 +303,9 @@ span#busuanzi_value_site_uv {
 /* 左侧栏 ------------------------------------------------------------------结束 */
 
 /* 底栏 */
-footer.main-footer.sticky.footer-type-1 {
+/* footer.main-footer.sticky.footer-type-1 {
   background: rgba(255, 255, 255, 0.7) !important;
-}
+} */
 .night footer.main-footer.sticky.footer-type-1 {
   background: rgba(0, 0, 0, 0.7) !important;
 }
