@@ -306,9 +306,9 @@ span#busuanzi_value_site_uv {
 /* footer.main-footer.sticky.footer-type-1 {
   background: rgba(255, 255, 255, 0.7) !important;
 } */
-/* .night footer.main-footer.sticky.footer-type-1 {
+.night footer.main-footer.sticky.footer-type-1 {
   background: rgba(0, 0, 0, 0.7) !important;
-} */
+}
 .footer-inner p {
   text-align: center;
   vertical-align: center;
@@ -339,7 +339,7 @@ i::before {
   color: #fff;
 }
 .night .footer-inner p {
-  color: #fff;
+  color: #bbb;
 }
 blockquote p a,
 .footer-inner strong {
