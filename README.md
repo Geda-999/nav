@@ -1,6 +1,6 @@
 # Webstack网址导航
 
-- 这是一个魔改过了[webstack](https://github.com/hassanblog/navigation)
+- 这是一个魔改过了webstack
 - 原版[webstack](https://github.com/WebStackPage/WebStackPage.github.io)
 - 博客框架[Hexo](https://hexo.io/zh-cn/)
 
@@ -25,15 +25,16 @@ hexo d       #部署上Github
 
 
 
-==bug问题==
+## bug问题
 
-```js
-//hexo d 打包完，index.html 打开网页是解析不了css和js 
+> hexo d 打包完，打开网页发现解析不了css和js 
 
-打开index.html 替换
-把 href="/ 替换成 href="./
-把 <script src="/ 替换成 <script src="./
-```
+### 解决办法
+
+- 在根目录`/public/index.html`
+- 打开 `index.html` 替换
+- 把  `href="/`  替换成  `href="./`
+- 把  `<script src="/`  替换成  `<script src="./`
 
 
 
